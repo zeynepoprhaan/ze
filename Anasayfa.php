@@ -34,7 +34,7 @@
     <!-- header section strats -->
     <header class="header_section">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="Anasayfa.html">
+          <a class="navbar-brand" href="Anasayfa.php">
             <span>
               ZeZeBeauty
             </span>
@@ -46,25 +46,25 @@
           <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item ">
-                <a class="nav-link" href="Anasayfa.html">Anasayfa <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="Anasayfa.php">Anasayfa <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="Alışveriş.html">
+                <a class="nav-link" href="Alışveriş.php">
                   Alışveriş
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="NedenBiz.html">
+                <a class="nav-link" href="NedenBiz.php">
                   Neden Biz
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Referans.html">
+                <a class="nav-link" href="Referans.php">
                   Referans
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="İletişim.html">İletişim</a>
+                <a class="nav-link" href="İletişim.php">İletişim</a>
               </li>
             </ul>
             <div class="user_option">
@@ -80,7 +80,7 @@
               }
               ?>
                 
-              <a href="Sepet.html">
+              <a href="Sepet.php">
                 <i class="fa fa-shopping-bag" aria-hidden="true"></i>
               </a>
               <form class="form-inline ">
@@ -111,7 +111,7 @@
                       <p>
                         ambalajlarına ve üretim uygulamalarına kadar daha sürdürebilir bir dünya için ‘’ Good for ‘’ konseptini benimsiyor. Onlarca renk seçeneği bulunan rujlarını, her cilt tonuna uygun fondöten serisilerini ve doğal içeriklere sahip cilt ve saç bakım ürünlerini hemen keşfedin..
                       </p>
-                      <a href="file:///C:/xampp/htdocs/ZeZeBeauty/İletişim.html">
+                      <a href="file:///C:/xampp/htdocs/ZeZeBeauty/İletişim.php">
                         Bize Ulaşın
                       </a>
                     </div>
@@ -417,7 +417,7 @@
         </div>
       </div>
       <div class="btn-box">
-        <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.html">
+        <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.php">
           Tüm Ürünleri Göster
         </a>
       </div>
@@ -449,7 +449,7 @@
                 makyaj, cilt bakımı ve parfüm ürünleriyle tam şeffaflık politikasını ulaşılabilir fiyat anlayışı ile buluşturuyor.
               </p>
               <div class="btn-box">
-                <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.html" class="btn1">
+                <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.php" class="btn1">
                   Satın Al
                 </a>
                 <a href="#" class="btn2">
@@ -744,7 +744,7 @@ Seçili mağazalarda
               <p>
                 Tüm Alışverişlerde Deneme Boy Ürün Hediye             </p>
               <div class="btn-box">
-                <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.html" class="btn1">
+                <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.php" class="btn1">
                   Satın Al
                 </a>
                 <a href="#" class="btn2">
