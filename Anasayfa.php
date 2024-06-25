@@ -68,12 +68,18 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <span>
-                  Giriş
-                </span>
-              </a>
+              <?php
+              session_start();
+              if (isset($_SESSION['username'])) {
+                  echo '<span>Hoş geldin '  . $_SESSION['username'] .  '</span>';
+                  echo '<a href="">   </a>';
+                  echo '<a href="cikis.php">  Çıkış Yap </a>';
+              } else {
+                  echo '<a href="index.php"><i class="fa fa-user" aria-hidden="true"></i><span>Giriş</span></a>';
+                  echo '<a href="uyeol.php"><i class="fa fa-user" aria-hidden="true"></i><span>Üye Ol</span></a>';
+              }
+              ?>
+                
               <a href="Sepet.html">
                 <i class="fa fa-shopping-bag" aria-hidden="true"></i>
               </a>
@@ -185,6 +191,10 @@
 
     <!-- end slider section -->
   </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
   <!-- end hero area -->
 
   <!-- shop section -->
