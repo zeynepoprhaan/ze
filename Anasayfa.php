@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +72,6 @@
             </ul>
             <div class="user_option">
               <?php
-              session_start();
               if (isset($_SESSION['username'])) {
                   echo '<span>Hoş geldin '  . $_SESSION['username'] .  '</span>';
                   echo '<a href="">   </a>';
@@ -82,12 +84,9 @@
                 
               <a href="Sepet.php">
                 <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                <span id="cart-count">0</span>
               </a>
-              <form class="form-inline ">
-                <button class="btn nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
+              
             </div>
           </div>
         </nav>
@@ -230,7 +229,7 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="1" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -256,7 +255,7 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="2" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -282,7 +281,7 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="3" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -308,7 +307,7 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="4" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -334,7 +333,7 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="5" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -360,7 +359,7 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="6" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -386,7 +385,7 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="7" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -412,12 +411,12 @@
                 </span>
               </div>
             </a>
-            <button data-product-id="7" class="btn btn-primary">Sepete Ekle</button>
+            <button data-product-id="8" class="btn btn-primary add-to-cart">Sepete Ekle</button>
           </div>
         </div>
       </div>
       <div class="btn-box">
-        <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.php">
+        <a href="Alışveriş.php">
           Tüm Ürünleri Göster
         </a>
       </div>
@@ -528,7 +527,7 @@
                 </g>
                 <g>
                   <g>
-                    <path d="M278.771,173.37c-3.13-3.13-8.207-3.13-11.337,0.001l-71.292,71.291l-37.087-37.087c-3.131-3.131-8.207-3.131-11.337,0
+                    <path d="M278.771,173.37c-3.13-3.13-8.207-3.13-11.337,0.001l-71.292,71.                291l-37.087-37.087c-3.131-3.131-8.207-3.131-11.337,0
                  c-3.131,3.131-3.131,8.206,0,11.337l42.756,42.756c1.565,1.566,3.617,2.348,5.668,2.348s4.104-0.782,5.668-2.348l76.96-76.96
                  C281.901,181.576,281.901,176.501,278.771,173.37z" />
                   </g>
@@ -706,7 +705,7 @@ Seçili mağazalarda
             </div>
             <div class="detail-box">
               <h5>
-                daha çok rün deneme avantajı 
+                daha çok ürün deneme avantajı 
               </h5>
               <p>
                 Her alışverişinizde büyük boy deneme ürünleri ve testerlar
@@ -728,10 +727,7 @@ Seçili mağazalarda
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-5">
-            <div class="img_container">
-              <div class="img-box">
-                <img src="images/gifts.png" alt="">
-              </div>
+            <div class               </div>
             </div>
           </div>
           <div class="col-md-7">
@@ -742,7 +738,8 @@ Seçili mağazalarda
                 </h2>
               </div>
               <p>
-                Tüm Alışverişlerde Deneme Boy Ürün Hediye             </p>
+                Tüm Alışverişlerde Deneme Boy Ürün Hediye
+              </p>
               <div class="btn-box">
                 <a href="file:///C:/xampp/htdocs/ZeZeBeauty/Alışveriş.php" class="btn1">
                   Satın Al
@@ -757,7 +754,6 @@ Seçili mağazalarda
       </div>
     </div>
   </section>
-
 
   <!-- end gift section -->
 
@@ -834,7 +830,8 @@ Seçili mağazalarda
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
               <p>
-                Hitap ettiği müşteri kitlesinin sorunlarını çözen, düzenlediği toplantı ve çalıştaylarla gerek ürün tanıtımını gerekse sektördeki yenilikleri en iyi şekilde tanıtan firmalardan biri olarak görüyorum. Başarılı çalışmalarının devamını diliyorum.              </p>
+                Hitap ettiği müşteri kitlesinin sorunlarını çözen, düzenlediği toplantı ve çalıştaylarla gerek ürün tanıtımını gerekse sektördeki yenilikleri en iyi şekilde tanıtan firmalardan biri olarak görüyorum. Başarılı çalışmalarının devamını diliyorum.
+              </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -851,7 +848,8 @@ Seçili mağazalarda
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
               <p>
-                Sorumluluk sahibi ve disiplinli bir firma, satış sonrasında da ulaşılabilir olması ve yardım alınabilmesi çok iyi. Ayrıca güler yüzlü bir ekibe sahip              </p>
+                Sorumluluk sahibi ve disiplinli bir firma, satış sonrasında da ulaşılabilir olması ve yardım alınabilmesi çok iyi. Ayrıca güler yüzlü bir ekibe sahip.
+              </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -868,7 +866,7 @@ Seçili mağazalarda
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
               <p>
-                Firmanız ihtiyaç duyulduğunda hemen telefonla ulaşılabilen ve problemlerin çözüldüğü bir firmadır. Bu müşteri memnuniyeti açısından oldukça önemlidir.Bu başarınızın devamını diliyorum.
+                Firmanız ihtiyaç duyulduğunda hemen telefonla ulaşılabilen ve problemlerin çözüldüğü bir firmadır. Bu müşteri memnuniyeti açısından oldukça önemlidir. Bu başarınızın devamını diliyorum.
               </p>
             </div>
           </div>
@@ -936,7 +934,7 @@ Seçili mağazalarda
              YARDIM EKİBİ
             </h6>
             <p>
-              Güncel stok ve indirimlerimiz ile bir numaralı kozmetik bayisiyiz
+              Güncel stok ve indirimlerimiz ile bir numaralı kozmetik bayisiyiz.
             </p>
           </div>
           <div class="col-md-6 col-lg-3">
@@ -973,13 +971,38 @@ Seçili mağazalarda
 
   <!-- end info section -->
 
-
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const cartCount = document.getElementById('cart-count');
+      const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+      addToCartButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          const productId = this.getAttribute('data-product-id');
+          const productName = this.parentNode.querySelector('.detail-box h6').innerText;
+          const productPrice = this.parentNode.querySelector('.detail-box span').innerText;
+
+          let cart = JSON.parse(localStorage.getItem('cart')) || [];
+          cart.push({ id: productId, name: productName, price: productPrice });
+          localStorage.setItem('cart', JSON.stringify(cart));
+          cartCount.innerText = cart.length;
+        });
+      });
+
+      function updateCartCount() {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cartCount.innerText = cart.length;
+      }
+
+      updateCartCount();
+    });
+  </script>
 
 </body>
-
 </html>
+
+

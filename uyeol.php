@@ -19,7 +19,10 @@
                     <label for="password">Şifre:</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <button type="submit">Kayıt Ol</button>
+                <div class="button-container">
+                    <button type="submit">Kayıt Ol</button>
+                    <a href="Anasayfa.php" class="home-button">Anasayfa</a>
+                </div>
             </form>
         </div>
     </div>

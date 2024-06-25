@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -32,37 +31,29 @@
 
 <body>
   <div class="hero_area">
-    <!-- header section strats   -->
+    <!-- header section strats -->
     <header class="header_section">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
         <a class="navbar-brand" href="Anasayfa.php">
-          <span>
-            ZeZeBeauty
-          </span>
+          <span>ZeZeBeauty</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class=""></span>
         </button>
 
         <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
-          <ul class="navbar-nav  ">
-            <li class="nav-item ">
+          <ul class="navbar-nav">
+            <li class="nav-item">
               <a class="nav-link" href="Anasayfa.php">Anasayfa <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="Alışveriş.php">
-                Alışveriş
-              </a>
+              <a class="nav-link" href="Alışveriş.php">Alışveriş</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="NedenBiz.php">
-                Neden Biz
-              </a>
+              <a class="nav-link" href="NedenBiz.php">Neden Biz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Referans.php">
-                Referans
-              </a>
+              <a class="nav-link" href="Referans.php">Referans</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="İletişim.php">İletişim</a>
@@ -84,25 +75,18 @@
               <i class="fa fa-shopping-bag" aria-hidden="true"></i>
               <span id="cart-count">0</span>
             </a>
-            <form class="form-inline ">
-              <button class="btn nav_search-btn" type="submit">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </form>
+            
           </div>
         </div>
       </nav>
     </header>
     <!-- end header section -->
   </div>
-  
 
   <section class="shop_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2>
-          Ürünler
-        </h2>
+        <h2>Ürünler</h2>
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -112,20 +96,14 @@
                 <img src="images/Allık.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Kiko
-                </h6>
+                <h6>Kiko</h6>
                 <h6>
                   Allık
-                  <span>
-                    $200
-                  </span>
+                  <span>$200</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  Yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="1" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -138,20 +116,14 @@
                 <img src="images/fentyconsealer.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Consealer
-                </h6>
+                <h6>Consealer</h6>
                 <h6>
                   Fenty
-                  <span>
-                    $300
-                  </span>
+                  <span>$300</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  Yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="2" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -164,20 +136,14 @@
                 <img src="images/Clinique.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Contur
-                </h6>
+                <h6>Contur</h6>
                 <h6>
                   Clinique
-                  <span>
-                    $110
-                  </span>
+                  <span>$110</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="3" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -190,20 +156,14 @@
                 <img src="images/huda pudra.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Pudra
-                </h6>
+                <h6>Pudra</h6>
                 <h6>
                   Huda
-                  <span>
-                    $45
-                  </span>
+                  <span>$45</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  Yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="4" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -216,20 +176,14 @@
                 <img src="images/fentyglos.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Gloss
-                </h6>
+                <h6>Gloss</h6>
                 <h6>
                   Fenty
-                  <span>
-                    $95
-                  </span>
+                  <span>$95</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  Yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="5" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -242,20 +196,14 @@
                 <img src="images/macdudakkalemi.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Dudak Kalemi
-                </h6>
+                <h6>Dudak Kalemi</h6>
                 <h6>
                   Mac
-                  <span>
-                    $70
-                  </span>
+                  <span>$70</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  Yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="6" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -268,20 +216,14 @@
                 <img src="images/maskara2.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Maskara
-                </h6>
+                <h6>Maskara</h6>
                 <h6>
                   Kiko
-                  <span>
-                    $400
-                  </span>
+                  <span>$400</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  Yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="7" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -294,20 +236,14 @@
                 <img src="images/giosu.jpg" alt="">
               </div>
               <div class="detail-box">
-                <h6>
-                  Dudak Yağı
-                </h6>
+                <h6>Dudak Yağı</h6>
                 <h6>
                   Giosu
-                  <span>
-                    $450
-                  </span>
+                  <span>$450</span>
                 </h6>
               </div>
               <div class="new">
-                <span>
-                  Yeni
-                </span>
+                <span>Yeni</span>
               </div>
             </a>
             <button data-product-id="8" class="btn btn-primary add-to-cart">Sepete Ekle</button>
@@ -347,38 +283,24 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-3">
-            <h6>
-              Hakkımızda
-            </h6>
-            <p>
-              Fransa’da 1969’da Dominique Mandonnaud tarafından kuruldu.
-            </p>
+            <h6>Hakkımızda</h6>
+            <p>Fransa’da 1969’da Dominique Mandonnaud tarafından kuruldu.</p>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="info_form ">
-              <h5>
-                Bülten
-              </h5>
+            <div class="info_form">
+              <h5>Bülten</h5>
               <form action="#">
                 <input type="email" placeholder=" e-mailinizi giriniz">
-                <button>
-                  Onayla
-                </button>
+                <button>Onayla</button>
               </form>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <h6>
-             YARDIM EKİBİ
-            </h6>
-            <p>
-              Güncel stok ve indirimlerimiz ile bir numaralı kozmetik bayisiyiz
-            </p>
+            <h6>YARDIM EKİBİ</h6>
+            <p>Güncel stok ve indirimlerimiz ile bir numaralı kozmetik bayisiyiz</p>
           </div>
           <div class="col-md-6 col-lg-3">
-            <h6>
-              BİZE ULAŞIN
-            </h6>
+            <h6>BİZE ULAŞIN</h6>
             <div class="info_link-box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -409,14 +331,13 @@
 
   <!-- end info section -->
 
-
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
   <script src="js/custom.js"></script>
 
-  <!-- Add this script to handle adding items to the cart -->
+  
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const cartCount = document.getElementById('cart-count');
@@ -439,6 +360,10 @@
           alert(`${productName} sepete eklendi!`);
         });
       });
+
+      
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      cartCount.innerText = cart.length;
     });
   </script>
 
